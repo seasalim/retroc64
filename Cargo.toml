@@ -1,0 +1,17 @@
+[package]
+name = "retroc64"
+version = "0.1.0"
+authors = ["Salim Alam"]
+description = "A Commodore 64 emulator written in Rust"
+homepage = "https://github.com/seasalim/retroc64"
+repository = "https://github.com/seasalim/retroc64"
+license = "Apache-2.0"
+keywords = ["emulator", "commodore", "c64", "games"]
+categories = ["emulators", "games"]
+
+[dependencies]
+clap = "2"
+sdl2 = "0.20"
+time = "0.1"
+log = "0.4"
+env_logger = "0.5.10"
